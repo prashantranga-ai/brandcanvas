@@ -1,6 +1,6 @@
 # BrandCanvas
 
-BrandCanvas is a Streamlit web app that helps small businesses generate brand-consistent campaign images using Gemini Flash Image (nano banana 2). Built as a PM take-home for Ideogram.
+BrandCanvas is a Streamlit web app that helps small businesses generate brand-consistent campaign images using Gemini Flash Image (nano banana).
 
 ## How it works
 
@@ -21,6 +21,11 @@ streamlit run app.py
 
 ## Deploy
 
-<!-- TODO: add Streamlit Community Cloud URL after deploy -->
+Live at [brandcanvas-prashantr.streamlit.app](https://brandcanvas-prashantr.streamlit.app).
 
 Deployed on Streamlit Community Cloud. Set `GEMINI_API_KEY` in the app's Secrets manager (no `.env` needed).
+
+## Documentation
+
+- [Product spec](./BrandCanvas-PRD.md) — scope, design decisions, system prompt design, what's next
+- [Eval set](./BrandCanvas-Evals.md) — reusable test harness with prompts, observations, and findings
