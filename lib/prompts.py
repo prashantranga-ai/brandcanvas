@@ -1,4 +1,5 @@
 def construct_prompt(user_description: str, brand_name: str) -> str:
+    brand_name = brand_name or "this brand"
     return f"""\
 ## Identity
 
